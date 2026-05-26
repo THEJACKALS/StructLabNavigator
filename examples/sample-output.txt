@@ -1,0 +1,62 @@
+==============================================
+ StructLab Navigator - Traversal CLI
+==============================================
+Aplikasi latihan struktur data berbasis console.
+
+Menu Utama
+1. Demo Breadth First Search (BFS)
+2. Demo Depth First Search (DFS)
+3. Lihat graph demo
+4. Keluar
+
+Pilih menu: 1
+
+Masukkan vertex awal BFS (0-5): 0
+
+Graph demo BFS:
+0 -> 1, 3, 4
+1 -> 2, 0
+2 -> 1
+3 -> 5, 1
+4 -> 5, 1
+5 -> 4, 3
+
+Hasil BFS dari vertex 0:
+0 -> 1 -> 3 -> 4 -> 2 -> 5
+
+Tekan Enter untuk kembali ke menu...
+
+Menu Utama
+1. Demo Breadth First Search (BFS)
+2. Demo Depth First Search (DFS)
+3. Lihat graph demo
+4. Keluar
+
+Pilih menu: 2
+
+Masukkan vertex awal DFS (0-7): 0
+
+Graph demo DFS:
+0 -> 1, 2, 3
+1 -> 3
+2 -> 4
+3 -> 5, 6
+4 -> 7, 5
+5 -> 2
+6 -> -
+7 -> -
+
+Hasil DFS dari vertex 0:
+0 -> 1 -> 3 -> 5 -> 2 -> 4 -> 7 -> 6
+
+Tekan Enter untuk kembali ke menu...
+
+Menu Utama
+1. Demo Breadth First Search (BFS)
+2. Demo Depth First Search (DFS)
+3. Lihat graph demo
+4. Keluar
+
+Pilih menu: 4
+
+Terima kasih. Program dihentikan.
